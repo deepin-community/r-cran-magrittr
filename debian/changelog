@@ -1,0 +1,62 @@
+r-cran-magrittr (2.0.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards-Version: 4.5.1 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Testsuite: autopkgtest-pkg-r (routine-update)
+  * Set upstream metadata fields: Archive, Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Architecture: any
+  * Fix autopkgtest
+
+ -- Andreas Tille <tille@debian.org>  Mon, 23 Nov 2020 14:14:21 +0100
+
+r-cran-magrittr (1.5-6) unstable; urgency=medium
+
+  * Standards-Version: 4.5.0 (routine-update)
+  * debhelper-compat 12 (routine-update)
+  * autopkgtest: s/ADTTMP/AUTOPKGTEST_TMP/g (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+
+ -- Andreas Tille <tille@debian.org>  Sat, 16 May 2020 08:13:08 +0200
+
+r-cran-magrittr (1.5-5) unstable; urgency=medium
+
+  * Rebuild for R 3.5 transition
+  * debhelper 11
+  * Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-
+    lists.debian.net>
+  * Point Vcs fields to salsa.debian.org
+  * dh-update-R to update Build-Depends
+
+ -- Andreas Tille <tille@debian.org>  Thu, 31 May 2018 14:26:41 +0200
+
+r-cran-magrittr (1.5-4) unstable; urgency=medium
+
+  * Moved packaging from SVN to Git
+  * Standards-Version: 4.1.1
+  * Convert from cdbs to dh-r
+  * Secure URI in watch file
+  * Canonical homepage for CRAN packages
+
+ -- Andreas Tille <tille@debian.org>  Fri, 20 Oct 2017 11:20:47 +0200
+
+r-cran-magrittr (1.5-3) unstable; urgency=medium
+
+  * Add missing test dependency r-cran-testthat
+
+ -- Andreas Tille <tille@debian.org>  Fri, 29 Apr 2016 09:52:18 +0200
+
+r-cran-magrittr (1.5-2) unstable; urgency=medium
+
+  * Fixed autopkgtest
+  * cme fix dpkg-control
+
+ -- Andreas Tille <tille@debian.org>  Thu, 28 Apr 2016 11:45:07 +0200
+
+r-cran-magrittr (1.5-1) unstable; urgency=medium
+
+  * Initial upload (Closes: #793686)
+
+ -- Andreas Tille <tille@debian.org>  Sun, 26 Jul 2015 17:51:55 +0200
